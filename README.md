@@ -12,6 +12,8 @@ List images ``docker images``
 
 List containers ``docker ps``
 
+Stop container ``docker stop container-name-or-ID``
+
 ### Dockerfile
 
 **FROM**

@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
     res.send('Hello! I am in a container!\n');
 });
 
+app.get('/bye', (req, res) => {
+    res.send('Good bye!!!');
+});
+
 app.listen(PORT, HOST, () => {
     console.log(`Running on http://${HOST}:${PORT}`);
 });
